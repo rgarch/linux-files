@@ -1,0 +1,77 @@
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: #191919;
+    font-weight: high;
+    line-height: 1.1em;
+	margin: 0 0 1.0em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	text-decoration: none;
+	color: #0091ff;
+}
+
+body{
+    font-family: arial; 
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 1.2em; 
+    width: 80%; 
+    margin: 0; 
+    background: #191919;
+}
+
+#page{ margin: 20px; }
+
+#logo{
+	width: 35%;
+	margin-top: 5px;
+      display: inline-block;
+      font-family: monospace;
+      font-size: 120%;
+}
+
+
+#nav{
+    width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: #0091ff;
+				color: #FFFFFF;
+				box-shadow: 0px 1px 1px #FFFFFF;
+			}
+			#nav ul li a:hover{
+				background-color: blue;
+				box-shadow: 0px 1px 1px gray;
+			}
+			#nav ul li a:active{ background-color: #191919; }
+#content{
+	margin: 30px 0;
+	background: #9c9c9c;
+	padding: 20px;
+	clear: both;
+	font-family: Liberation Mono;
+	box-shadow: 0px 1px 1px #FFFFFF;
+}
+#footer{
+	border-bottom: 1px #0091ff solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+	
+		text-align: right;
+		text-transform: lowercase;
+		font-size: 80%;
+		color:#FFFFFF;
+	}
+
