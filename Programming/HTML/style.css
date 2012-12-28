@@ -1,7 +1,7 @@
 p{ line-height: 1em; }
 h1, h2, h3, h4{
     color: #191919;
-    font-weight: high;
+    font-weight: bold;
     line-height: 1.1em;
 	margin: 0 0 1.0em 0;
 }
@@ -13,65 +13,113 @@ a{
 }
 
 body{
-    font-family: arial; 
+    font-family: 'Antic', sans-serif; 
     font-size: 80%;
-    font-weight: bold;
-    line-height: 1.2em; 
-    width: 80%; 
-    margin: 0; 
+    line-height: 1.2em;  
+    margin: 0px; 
     background: #191919;
+    position: left;
+    width: 100%
 }
 
-#page{ margin: 20px; }
+#page{ 
+	margin: 30px 30px 30px 30px; 
+	position: center;
+	padding: 5px;
+}
 
 #logo{
 	width: 35%;
-	margin-top: 5px;
-      display: inline-block;
-      font-family: monospace;
-      font-size: 120%;
+	margin-top: 10px;
+    display: inline-block;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 120%;
 }
 
 
 #nav{
-    width: 60%;
+    width: 61.5%;
 	display: inline-block;
 	text-align: right;
 	float: right;
+	font-weight: bold;
+	margin-top: 0px;
+	position: fixed;
+	font-family: 'Architects Daughter', cursive;
 }
 	#nav ul{}
 		#nav ul li{
 			display: inline-block;
-			height: 62px;
+			height: 35px;
 		}
 			#nav ul li a{
-				padding: 20px;
+				padding: 17px;
 				background: #0091ff;
 				color: #FFFFFF;
-				box-shadow: 0px 1px 1px #FFFFFF;
+				box-shadow: 2px 2px 2px blue;
 			}
 			#nav ul li a:hover{
 				background-color: blue;
-				box-shadow: 0px 1px 1px gray;
+				box-shadow: 3px 3px 3px #FFFFFF;
 			}
-			#nav ul li a:active{ background-color: #191919; }
+			#nav ul li a:active{ 
+			    background-color: ;
+			    box-shadow: 2px 2px 2px #9c9c9c;
+			}
+			#nav ul li.h{
+			    padding: 5px 5px;
+			    height: 65px;
+			}
+			#nav ul li.a{
+			    padding: 5px 5px;
+			    height: 60px;
+			}
+			#nav ul li.c{
+			    padding: 5px 5px;
+			    height: 50px;
+			}
+			
 #content{
-	margin: 30px 0;
+	margin-right: 35px;
+	margin-bottom: 20px;
 	background: #9c9c9c;
 	padding: 20px;
 	clear: both;
-	font-family: Liberation Mono;
-	box-shadow: 0px 1px 1px #FFFFFF;
+	font-family: 'Monda', sans-serif;
+	box-shadow: 4px 4px 4px #0091FF;
+	width: 50%;
 }
+
 #footer{
-	border-bottom: 1px #0091ff solid;
-	margin-bottom: 10px;
+	border-bottom: 1px #0091FF solid;
+	width: 50%;
+	margin-left: 0;
+	margin-right: 35px;
+	margin-bottom: 0;
+	padding-top: 5px;
+	padding-right: 40px;
+	font-family: 'Open Sans', sans-serif;
 }
+
+    #footer.clock{
+        position: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
 	#footer p{
-	
-		text-align: right;
+		text-align: center;
 		text-transform: lowercase;
-		font-size: 80%;
+		font-size: 90%;
 		color:#FFFFFF;
+		width: 100%;
+	}
+	#footer a{}
+	#footer a:hover{
+		color: blue;
+	}
+	#footer a:active{
+		color: #FFFFFF;
 	}
 
+		
+		
