@@ -51,7 +51,6 @@ body{
 		#nav ul li{
 			display: inline-block;
 			height: 35px;
-			border-radius: 8px;
 		}
 			#nav ul li a{
 				padding: 12px;
@@ -59,6 +58,7 @@ body{
 				color: #FFFFFF;
 				box-shadow: 2px 2px 2px blue;
 				font-weight: bold;
+				border-radius: 8px;
 			}
 			#nav ul li a:hover{
 				background-color: blue;
@@ -71,17 +71,14 @@ body{
 			#nav ul li.h{
 			    padding: 5px 5px;
 			    height: 65px;
-			    border-radius: 8px;
 			}
 			#nav ul li.a{
 			    padding: 5px 5px;
 			    height: 60px;
-			    border-radius: 8px;
 			}
 			#nav ul li.c{
 			    padding: 5px 5px;
 			    height: 50px;
-			    border-radius: 8px;
 			}
 			
 #content{
