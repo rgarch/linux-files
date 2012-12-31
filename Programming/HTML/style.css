@@ -46,12 +46,12 @@ body{
 	margin-top: 0px;
 	position: fixed;
 	font-family: 'Open Sans', sans-serif;
-	border-radius: 8px;
 }
 	#nav ul{}
 		#nav ul li{
 			display: inline-block;
 			height: 35px;
+			border-radius: 8px;
 		}
 			#nav ul li a{
 				padding: 12px;
