@@ -32,7 +32,11 @@
 }
 
 /* Put a border around prettyprinted code snippets. */
+<<<<<<< HEAD
 pre.prettyprint { padding: 2px; border: 1px solid #888; background-color: #BCBCBC; }
+=======
+pre.prettyprint { padding: 2px; border: 2px solid #191919; background-color: white; }
+>>>>>>> fc8c51a773f03968aacbd4bcef3f3b2ae2a77f68
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */
