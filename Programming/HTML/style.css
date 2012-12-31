@@ -46,6 +46,7 @@ body{
 	margin-top: 0px;
 	position: fixed;
 	font-family: 'Open Sans', sans-serif;
+	border-radius: 8px;
 }
 	#nav ul{}
 		#nav ul li{
@@ -88,6 +89,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	box-shadow: 4px 4px 4px #0091FF;
 	width: 52%;
+	border-radius: 8px;
 }
 
 #footer{
