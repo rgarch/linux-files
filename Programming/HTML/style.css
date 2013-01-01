@@ -58,7 +58,6 @@ body{
 				color: #FFFFFF;
 				box-shadow: 2px 2px 2px blue;
 				font-weight: bold;
-				border-radius: 8px;
 			}
 			#nav ul li a:hover{
 				background-color: blue;
