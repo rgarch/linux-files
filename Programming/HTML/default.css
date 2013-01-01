@@ -39,6 +39,7 @@ pre.prettyprint {
   position: center; 
   width: 89%; 
   margin: 1em auto; 
+  font-family: 'Monaco';
 }
 
 
