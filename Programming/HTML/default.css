@@ -40,7 +40,7 @@ pre.prettyprint {
   width: 89%; 
   margin: 1em auto; 
   font-family: 'Monaco';
-  whitespace: pre-wrap;
+  white-space: pre-wrap;
 }
 
 
