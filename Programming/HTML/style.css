@@ -103,6 +103,7 @@ body{
     #footer.clock{
         position: center;
         font-family: 'Open Sans', sans-serif;
+        margin: 1em auto;
     }
 
 	#footer p{
