@@ -50,7 +50,7 @@ body{
 	#nav ul{}
 		#nav ul li{
 			display: inline-block;
-			height: 35px;
+			height: 45px;
 		}
 			#nav ul li a{
 				padding: 12px;
