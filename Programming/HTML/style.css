@@ -52,7 +52,7 @@ body{
 			height: 45px;
 		}
 			#nav ul li a{
-				padding: 0px;
+				padding: 12px;
 				background: #0091ff;
 				color: #FFFFFF;
 				box-shadow: 2px 2px 2px blue;
