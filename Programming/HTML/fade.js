@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#nav ul li .a:hover').mouseenter(function() {
-        $(this).fadeOut('slow');
+    $('#nav ul li a:hover').mouseenter(function() {
+        $('#nav ul li a:hover').fadeOut('slow');
     });
 });
