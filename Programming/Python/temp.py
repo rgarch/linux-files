@@ -1,4 +1,4 @@
-#Simple temperature conversion tool by Ricky Sistrunk
+#Simple temperature conversion tool
 
 def CtoF(x):
     f = x * 1.8 + 32.0
