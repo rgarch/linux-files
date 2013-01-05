@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#nav ul li').click(function() {
+    $('#nav').click(function() {
         $(this).fadeOut('slow');
     });
 });
