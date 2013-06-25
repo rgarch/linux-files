@@ -13,7 +13,7 @@ dparse = [s.text for s in directM]
 dout = dparse[0]
 print dout
 
-messages = api.PostDirectMessage(raw_input("Twitter ID: "), raw_input("direct message: "))
+messages = api.PostDirectMessage(raw_input("message: "), screen_name=(raw_input("screen name: ")))
 print messages.text
 
 #status = api.PostUpdate(raw_input("status: "))
