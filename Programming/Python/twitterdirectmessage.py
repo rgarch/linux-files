@@ -10,8 +10,8 @@ api = twitter.Api(consumer_key='CONSUMER_KEY', consumer_secret='CONSUMER_SECRET'
 
 directM = api.GetDirectMessages()
 dparse = [s.text for s in directM]
-dout = dparse[0]
-print dout
+output = dparse[0]
+print output
 
 messages = api.PostDirectMessage(raw_input("message: "), screen_name=(raw_input("screen name: ")))
 print messages.text
