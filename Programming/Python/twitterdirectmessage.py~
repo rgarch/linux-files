@@ -28,3 +28,6 @@ while True:
 	else:
 		print "error"
 	break
+
+#status = api.PostUpdate(raw_input("status: "))
+#print status.text
