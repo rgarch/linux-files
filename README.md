@@ -1,3 +1,3 @@
 linux-files
 ===========
-Various files from linux including a website.
+Various files from linux
