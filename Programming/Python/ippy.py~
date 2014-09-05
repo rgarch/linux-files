@@ -2,17 +2,17 @@
 import urllib2
 import smtplib
 from datetime import datetime
-# Optional 
-#now = datetime.now()
-#current_hour = now.hour
-#current_minute = now.minute
-#current_second = now.second
-#time = str(current_hour)+":"+str(current_minute)+":"+str(current_second)
+
+now = datetime.now()
+current_hour = now.hour
+current_minute = now.minute
+current_second = now.second
+time = str(current_hour)+":"+str(current_minute)+":"+str(current_second)
 
 ip = urllib2.urlopen("http://curlmyip.com").read().strip()
-to = 'EMAIL'
-gmail_user = 'EMAIL'
-gmail_pwd = 'PASSWORD'
+to = 'rs87428@gmail.com'
+gmail_user = 'rs87428@gmail.com'
+gmail_pwd = 'Anom@ly1'
 smtpserver = smtplib.SMTP("smtp.gmail.com",587)
 smtpserver.ehlo()
 smtpserver.starttls()
