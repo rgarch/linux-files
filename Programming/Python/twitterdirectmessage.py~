@@ -13,10 +13,10 @@ current_minute = now.minute
 current_second = now.second
 
 api = twitter.Api(
-consumer_key='', 
-consumer_secret='', 
-access_token_key='', 
-access_token_secret=''
+consumer_key='suDVBRmQjRbcel636fTw', 
+consumer_secret='wrEPvRCWVNSuhG94ezqFXWJa3cUeyeEMKlSSXCCfQ', 
+access_token_key='217371550-G6lDr9PDhRxR0tdyydy6WG4xy274ja2jvejH827f', 
+access_token_secret='th0oHwhJv8pqALbPLeWT60hnSzLGlkpGyHMK8jSPiCA'
 )
 
 directM = api.GetDirectMessages()
