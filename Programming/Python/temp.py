@@ -7,12 +7,13 @@ def CtoF(x):
 def FtoC(y):
     c = (y - 32.0) * 5.0/9.0
     return c
-number = float(raw_input("temperature: "))
-line = raw_input("(C)elsius or (F)ahrenheit?: ")
 
-if line.upper().endswith("C"):
+number = float(raw_input("temperature> "))
+metric = raw_input("(C)elsius or (F)ahrenheit?> ")
+
+if metric.endswith("C"):
     print CtoF(number)
-elif line.upper().endswith("F"):
+elif metric.endswith("F"):
     print FtoC(number)
 else:
     print "You must use 'C' or 'F' for your temperature choice."
