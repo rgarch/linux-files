@@ -7,14 +7,13 @@ def CtoF(x):
 def FtoC(y):
     c = (y - 32.0) * 5.0/9.0
     return c
-
-line = raw_input(">>> ")
-
-line = line.strip()
+number = float(raw_input("temperature: "))
+line = raw_input("(C)elsius or (F)ahrenheit?: ")
 
 if line.upper().endswith("C"):
-    print CtoF(int(line[:-1]))
+    print CtoF(number)
 elif line.upper().endswith("F"):
-    print FtoC(int(line[:-1]))
+    print FtoC(number)
 else:
-    print "You must add C or F to your temperature. example: <number>C or <number>F"
+    print "You must use 'C' or 'F' for your temperature choice."
+
